@@ -20,7 +20,7 @@ function createWindow() {
         mainWindow.loadFile('cv-frontend/index.html')
     }
     else{
-        mainWindow.loadFile('cv-frontend/indexDev.html')
+        mainWindow.loadFile('cv-frontend/index.html')
     }
     ipcMain.on("overwrite", (e, { dir, data }) => {
         console.log(dir)
